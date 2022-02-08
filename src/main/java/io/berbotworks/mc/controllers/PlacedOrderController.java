@@ -15,7 +15,7 @@ import io.berbotworks.mc.services.PlacedOrderService;
 import lombok.RequiredArgsConstructor;
 
 @CrossOrigin(origins = { "http://localhost:3000",
-        "https://ft-s.herokuapp.com/" }, allowedHeaders = "*", maxAge = 10000l)
+        "https://fts.dwight0314.repl.co/" }, allowedHeaders = "*", maxAge = 10000l)
 @RequiredArgsConstructor
 @RestController
 public class PlacedOrderController {

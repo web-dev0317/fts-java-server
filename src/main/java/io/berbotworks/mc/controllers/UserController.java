@@ -17,7 +17,7 @@ import io.berbotworks.mc.services.UserService;
 import lombok.RequiredArgsConstructor;
 
 @CrossOrigin(origins = {
-        "http://localhost:3000, https://ft-s.herokuapp.com/" }, allowedHeaders = "*", exposedHeaders = {
+        "http://localhost:3000", "https://fts.dwight0314.repl.co/" }, allowedHeaders = "*", exposedHeaders = {
                 "Authorization", "Access-Control-Allow-Origin", "X-Room-Id" }, maxAge = 10000l)
 @RequiredArgsConstructor
 @RestController
